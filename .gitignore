@@ -1,0 +1,81 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+*.env
+
+# =========================
+# Python
+# =========================
+__pycache__/
+__pycache__
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+*.env.local
+main_interface/.env
+main_interface/.env.local
+
+# =========================
+# Django / Database
+# =========================
+*.sqlite3
+
+# =========================
+# Database backups
+# =========================
+*.dump
+*.backup
+backup_main_gmao_list.txt
+
+# =========================
+# Local generated files : docker compose config > compose.validated.txt
+# =========================
+compose.validated.txt
+
+# =========================
+# Répertoires hors projet
+# =========================
+ihm/
+main_pro_frontend/
+maintenance.png
+umlClasseMaintenance.dot
+umlClasseMaintenance.svg
+umlClassePred.dot
+umlClassePred.svg
+
+# =========================
+# Django runtime data
+# =========================
+main_pro/media/
+main_pro/out/
+main_pro/diagram
+main_pro/create_user.py
+main_pro/fichier migration commande.txt
+main_pro/templates
+# =========================
+# Node / React
+# =========================
+node_modules/
+dist/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
