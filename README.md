@@ -2,6 +2,16 @@
 Intelligent CMMS (GMAO) platform with predictive maintenance, Django REST API, React, PostgreSQL, Redis and Docker.
 # 🏭 GMAO Intelligent Platform
 
+👨‍💻 Auteur
+
+Sabri Djemai
+
+Développement logiciel · Architecture applicative · Cloud & Docker · Machine Learning · Cybersécurité
+
+📄 Licence
+
+Ce projet est actuellement destiné à un usage académique et de démonstration.
+
 > Plateforme intelligente de Gestion de Maintenance Assistée par Ordinateur (GMAO) intégrant la maintenance prédictive, la gestion des interventions, le suivi des équipements, la gestion des pièces, l'audit et un module de maintenance prédictive basé sur le Machine Learning.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
