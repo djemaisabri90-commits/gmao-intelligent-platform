@@ -39,6 +39,10 @@ L'objectif est de proposer une architecture modulaire capable d'intégrer les pr
 
 ---
 
+## 🔄 Méthodologie de développement
+
+Le projet a été développé selon une approche **Agile Scrum**, avec une organisation en sprints successifs, un backlog fonctionnel, une priorisation des fonctionnalités, un développement incrémental ainsi que des phases régulières de tests et de validation.
+
 # 🏗️ Architecture
 
 La plateforme repose sur une architecture web modulaire conteneurisée avec Docker.
