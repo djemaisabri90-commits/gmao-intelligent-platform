@@ -2,16 +2,6 @@
 Intelligent CMMS (GMAO) platform with predictive maintenance, Django REST API, React, PostgreSQL, Redis and Docker.
 # 🏭 GMAO Intelligent Platform
 
-👨‍💻 Auteur
-
-Sabri Djemai
-
-Développement logiciel · Architecture applicative · Cloud & Docker · Machine Learning · Cybersécurité
-
-📄 Licence
-
-Ce projet est actuellement destiné à un usage académique et de démonstration.
-
 > Plateforme intelligente de Gestion de Maintenance Assistée par Ordinateur (GMAO) intégrant la maintenance prédictive, la gestion des interventions, le suivi des équipements, la gestion des pièces, l'audit et un module de maintenance prédictive basé sur le Machine Learning.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
@@ -309,3 +299,55 @@ sécurité
 workflows métier
 
 Les tests ont été exécutés avec succès dans l'environnement du projet.
+
+📁 Structure générale du projet
+gmao/
+│
+├── .dockerignore
+├── .env.example
+├── .gitignore
+│
+├── Dockerfile
+├── Dockerfile.frontend
+├── compose.yaml
+├── requirements.txt
+├── README.Docker.md
+│
+├── main_interface/
+│   └── React / TypeScript / Vite
+│
+└── main_pro/
+    ├── main_pro/
+    ├── maintenance/
+    ├── predictive/
+    └── templates
+
+🎓 Contexte académique
+
+Projet réalisé dans le cadre d'un projet de fin d'études de Master professionnel.
+
+Domaine :
+
+Gestion de maintenance industrielle — Transformation numérique — Intelligence artificielle — Maintenance prédictive
+
+Le projet combine des compétences en :
+
+développement web
+architecture logicielle
+bases de données
+cybersécurité
+Cloud / conteneurisation
+Machine Learning
+conception d'API
+tests logiciels
+
+
+👨‍💻 Auteur
+
+Sabri Djemai
+
+Développement logiciel · Architecture applicative · Cloud & Docker · Machine Learning · Cybersécurité
+
+📄 Licence
+
+Ce projet est actuellement destiné à un usage académique et de démonstration.
